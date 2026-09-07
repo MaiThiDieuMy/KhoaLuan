@@ -1,39 +1,145 @@
-cai_xanh:
-  canonical_name: "Cải xanh"
-  scientific_name: "Brassica juncea"
-  aliases:
-    - "cải xanh"
-    - "cải bẹ xanh"
-    - "Brassica juncea"
+version: 1
 
-ngo_ri:
-  canonical_name: "Ngò rí"
-  scientific_name: "Coriandrum sativum"
-  aliases:
-    - "ngò rí"
-    - "rau mùi"
-    - "ngò"
-    - "Coriandrum sativum"
+study_scope:
+  country: Vietnam
+  primary_region: Binh_Dinh_Legacy
+  current_administrative_region: Gia_Lai
+  description: >
+    Short-cycle vegetable decision-support study for the
+    former Binh Dinh province, currently part of Gia Lai.
 
-cai_cuc:
-  canonical_name: "Cải cúc"
-  scientific_name: "Glebionis coronaria"
-  aliases:
-    - "cải cúc"
-    - "tần ô"
-    - "Glebionis coronaria"
-    - "Chrysanthemum coronarium"
+crops:
 
-rau_muong:
-  canonical_name: "Rau muống"
-  scientific_name: "Ipomoea aquatica"
-  aliases:
-    - "rau muống"
-    - "Ipomoea aquatica"
+  - id: cai_xanh
+    name_vi: Cải xanh
+    scientific_name: Brassica juncea
 
-xa_lach:
-  canonical_name: "Xà lách"
-  scientific_name: "Lactuca sativa"
-  aliases:
-    - "xà lách"
-    - "Lactuca sativa"
+    aliases_vi:
+      - cải xanh
+      - cải bẹ xanh
+      - cải canh
+
+    aliases_en:
+      - mustard greens
+      - Brassica juncea
+
+    groups:
+      - leafy_vegetable
+      - short_cycle_vegetable
+
+
+  - id: ngo
+    name_vi: Ngò / ngò rí
+    scientific_name: Coriandrum sativum
+
+    aliases_vi:
+      - ngò rí
+      - rau mùi
+      - ngò
+
+    aliases_en:
+      - coriander
+      - cilantro
+      - Coriandrum sativum
+
+    groups:
+      - herb_vegetable
+      - short_cycle_vegetable
+
+
+  - id: cai_cuc
+    name_vi: Cải cúc / tần ô
+    scientific_name: Glebionis coronaria
+
+    aliases_vi:
+      - cải cúc
+      - tần ô
+
+    aliases_en:
+      - edible chrysanthemum
+      - crown daisy
+      - Glebionis coronaria
+
+    groups:
+      - leafy_vegetable
+      - short_cycle_vegetable
+
+
+  - id: rau_muong
+    name_vi: Rau muống
+    scientific_name: Ipomoea aquatica
+
+    aliases_vi:
+      - rau muống
+
+    aliases_en:
+      - water spinach
+      - Ipomoea aquatica
+
+    groups:
+      - leafy_vegetable
+      - short_cycle_vegetable
+
+
+  - id: xa_lach
+    name_vi: Xà lách
+    scientific_name: Lactuca sativa
+
+    aliases_vi:
+      - xà lách
+      - rau xà lách
+
+    aliases_en:
+      - lettuce
+      - Lactuca sativa
+
+    groups:
+      - leafy_vegetable
+      - short_cycle_vegetable
+
+
+crop_groups:
+
+  leafy_vegetable:
+    name_vi: Rau ăn lá
+
+    aliases_vi:
+      - rau ăn lá
+
+    aliases_en:
+      - leafy vegetables
+
+
+  herb_vegetable:
+    name_vi: Rau gia vị
+
+    aliases_vi:
+      - rau gia vị
+
+    aliases_en:
+      - culinary herbs
+      - herb vegetables
+
+
+  short_cycle_vegetable:
+    name_vi: Rau ngắn ngày
+
+    aliases_vi:
+      - rau ngắn ngày
+      - rau màu ngắn ngày
+
+    aliases_en:
+      - short duration vegetables
+      - short cycle vegetables
+
+
+  general_vegetable:
+    name_vi: Rau
+
+    aliases_vi:
+      - cây rau
+      - rau màu
+
+    aliases_en:
+      - vegetable crops
+      - vegetables

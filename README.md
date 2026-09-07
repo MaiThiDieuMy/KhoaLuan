@@ -1,198 +1,94 @@
 # Weather-Aware Agricultural Decision Support System
 
-## 1. Mục tiêu đề tài
+## 1. Project Goal
 
-Dự án xây dựng hệ thống hỗ trợ quyết định chăm sóc rau ngắn ngày dựa trên:
+This repository builds a weather-aware agricultural decision-support system for
+short-cycle vegetables in the former Binh Dinh province, Vietnam, now part of Gia
+Lai.
 
-1. Dự báo thời tiết.
-2. Mô hình Machine Learning hiệu chỉnh dự báo thời tiết cho khu vực nghiên cứu.
-3. RAG truy xuất tri thức nông nghiệp.
-4. Ngữ cảnh thực tế của ruộng/cây trồng.
-5. Decision Engine kết hợp các nguồn thông tin để tạo khuyến nghị.
-6. LLM giải thích kết quả và cung cấp evidence/source cho người dùng.
+Target crops:
 
-Khu vực nghiên cứu chính:
+| Crop ID | Common Vietnamese Scope | Scientific Name |
+| --- | --- | --- |
+| `cai_xanh` | cải xanh / cải bẹ xanh | Brassica juncea |
+| `ngo` | ngò / ngò rí / rau mùi | Coriandrum sativum |
+| `cai_cuc` | cải cúc / tần ô | Glebionis coronaria |
+| `rau_muong` | rau muống | Ipomoea aquatica |
+| `xa_lach` | xà lách | Lactuca sativa |
 
-- Phạm vi tỉnh Bình Định cũ.
-- Hiện thuộc tỉnh Gia Lai sau thay đổi địa giới.
+The final system has two mandatory branches:
 
-Nhóm cây V1:
+```text
+Weather Model
+        +
+Agricultural RAG
+        +
+Farm Context
+        |
+        v
+Agro-Weather / Decision Engine
+        |
+        v
+Recommendation + Explanation + Evidence / Source
+```
 
-- Cải xanh / cải bẹ xanh.
-- Ngò / ngò rí / rau mùi.
-- Cải cúc / tần ô.
-- Rau muống.
-- Xà lách.
+Both Weather and RAG must contribute to the final recommendation.
 
----
-
-# 2. Ý tưởng hệ thống
-
-Hai nhánh chính luôn cùng đóng góp vào khuyến nghị cuối.
+## 2. System Flow
 
 ```text
                          USER QUERY
                               |
                               v
-                       QUERY / CONTEXT
+                       USER/FARM CONTEXT
                               |
-              +---------------+---------------+
-              |                               |
-              v                               v
-       WEATHER BRANCH                    RAG BRANCH
-              |                               |
-        Weather Data                   Agronomy Data
-              |                               |
-       ECMWF Forecast                  Data Discovery
-              |                               |
-       ML Correction                   Validation
-              |                               |
-              v                               v
-     Corrected Forecast             Agricultural Evidence
-              |                               |
-              v                               |
-     Agro-Weather Features                     |
-              |                               |
-              +---------------+---------------+
+             +----------------+----------------+
+             |                                 |
+             v                                 v
+       WEATHER BRANCH                     RAG BRANCH
+             |                                 |
+       ECMWF Forecast                    Knowledge Discovery
+             |                                 |
+       Verification Data                 Validated Documents
+             |                                 |
+       ML/MOS Correction                 Retrieval
+             |                                 |
+             v                                 v
+      Corrected Forecast                 Evidence
+             |                                 |
+             v                                 |
+      Agro-Weather Features                    |
+             |                                 |
+             +----------------+----------------+
                               |
                               v
                        DECISION ENGINE
                               |
                               v
-                         LLM OUTPUT
+                       LLM EXPLANATION
                               |
                               v
-            Recommendation + explanation + source
+                       FINAL RESPONSE
 ```
 
-Nguyên tắc quan trọng:
+## 3. Weather Branch
 
-- Weather Model không phải module phụ.
-- Weather output phải ảnh hưởng tới quyết định cuối.
-- RAG không chỉ chứa kiến thức thời tiết.
-- RAG chứa kiến thức chăm sóc cây và kiến thức liên hệ:
-  `weather/environment -> crop effect -> management action`.
-- Không cho LLM tự tạo threshold, liều thuốc hay quy định pháp lý.
+The Weather branch is still part of the project and must not be removed or
+de-prioritized.
 
----
-
-# 3. Chiến lược dữ liệu RAG
-
-Phiên bản cũ từng sử dụng cách:
+Planned Weather pipeline:
 
 ```text
-chọn một số source
--> crawl trong các source đó
--> xem có tài liệu gì
-```
-
-Cách này đã được bỏ.
-
-Từ phiên bản hiện tại sử dụng:
-
-```text
-DATA NEED
-    |
-    v
-QUERY DISCOVERY
-    |
-    v
-SEARCH WEB / PAPER / PUBLIC DATASET
-    |
-    v
-CANDIDATE DOCUMENTS
-    |
-    v
-CONTENT RELEVANCE
-    |
-    v
-SOURCE VALIDATION
-    |
-    v
-DOWNLOAD
-    |
-    v
-EXTRACT + NORMALIZE
-    |
-    v
-WEATHER-AGRONOMY METADATA
-    |
-    v
-COVERAGE AUDIT
-    |
-    v
-FINAL RAG CORPUS
-```
-
-Nguyên tắc:
-
-> Tìm đúng nội dung trước, đánh giá source sau.
-
-Không sử dụng whitelist domain trong giai đoạn discovery.
-
----
-
-# 4. Knowledge cần tìm cho RAG
-
-Các tài liệu được ưu tiên khi chứa một hoặc nhiều quan hệ:
-
-```text
-weather -> crop effect
-
-weather -> soil/water effect
-
-weather -> pest/disease risk
-
-weather -> management action
-
-weather -> farm operation timing
-```
-
-Ví dụ:
-
-```text
-mưa kéo dài
--> đất quá ẩm / nguy cơ úng
--> giảm tưới / kiểm tra thoát nước
-```
-
-hoặc:
-
-```text
-nắng nóng
--> tăng mất nước
--> điều chỉnh tưới / che nắng / giữ ẩm
-```
-
-RAG vẫn phải chứa kiến thức nông nghiệp nền như:
-
-- đặc tính cây;
-- đất;
-- tưới;
-- dinh dưỡng;
-- sâu bệnh;
-- kỹ thuật chăm sóc;
-- giai đoạn sinh trưởng;
-- thu hoạch.
-
----
-
-# 5. Chiến lược dữ liệu Weather
-
-Weather data được quản lý riêng với RAG data.
-
-Dự kiến:
-
-```text
-ECMWF historical forecast
-        +
-ERA5 / observation verification
+ECMWF forecast
         |
         v
-forecast-verification matching
+verification data
         |
         v
-ML / MOS correction model
+run_time / valid_time / lead_time matching
+        |
+        v
+ML/MOS correction
         |
         v
 corrected forecast
@@ -201,32 +97,245 @@ corrected forecast
 agro-weather features
 ```
 
-Các biến weather lõi dự kiến:
+Static geography for the future Weather pipeline is kept under:
 
-- temperature;
-- rainfall;
-- relative humidity;
-- wind.
+```text
+data/weather/geography/
+```
 
-Có thể tính thêm:
+Do not commit GRIB/GRIB2, NetCDF, raw weather downloads, weather caches, or
+temporary weather reports.
 
-- ET0;
-- wet spell;
-- dry spell;
-- heavy rain;
-- heat event;
-- high-humidity period.
+## 4. RAG Data Strategy
 
-Các file GRIB/NetCDF rất lớn không được commit lên Git.
+The old source-first approach is abandoned:
 
----
+```text
+choose a small website whitelist
+-> crawl those websites
+-> keep whatever appears useful
+```
 
-# 6. Cấu trúc repository hiện tại
+The current strategy is discovery first:
+
+```text
+knowledge need
+        |
+        v
+discovery query
+        |
+        v
+search broad web / scholarly sources
+        |
+        v
+candidate documents
+        |
+        v
+content relevance validation
+        |
+        v
+source quality validation
+        |
+        v
+download/process later
+```
+
+There is no hard domain whitelist during discovery. Crawling, scholarly API
+search, PDF download, embeddings, BM25, vector databases, retrieval, and Weather
+ML are not part of Stage A1 or Stage A2.
+
+Current RAG acquisition roles:
+
+```text
+A1 = systematic coverage
+A2 = natural language / public-question coverage
+A3 = document candidate discovery
+A4 = source vetting
+```
+
+## 5. Region Semantics
+
+`search_region` is the geographic phrase added to a search query. It is only
+query context.
+
+`search_region` must not be interpreted as the real geographic origin,
+applicability, or authority of a discovered document. Later stages may assign a
+separate `document_region` after content review and source/local applicability
+validation.
+
+For A2 synthetic farmer-style queries, regional terms are appended as search
+keywords such as `Việt Nam`, `Bình Định`, or `Gia Lai`, not as claims that the
+future document is from that place.
+
+Round 1 Vietnamese search contexts:
+
+```text
+NONE
+VIETNAM
+BINH_DINH_LEGACY
+GIA_LAI_CURRENT
+```
+
+Round 1 English scholarly search contexts:
+
+```text
+GLOBAL
+VIETNAM
+```
+
+Future regional gap-fill scopes are defined for use only after Coverage Audit
+finds missing evidence:
+
+```text
+SOUTH_CENTRAL_COAST
+MEKONG_DELTA
+SOUTHEAST_VIETNAM
+CENTRAL_HIGHLANDS
+NORTH_CENTRAL_VIETNAM
+RED_RIVER_DELTA
+SOUTHEAST_ASIA
+TROPICAL
+GLOBAL
+```
+
+Round 1 does not generate Mekong Delta, South Central Coast, Red River Delta,
+Southeast Asia, Tropical, or other gap-fill queries.
+
+## 6. Stage A1 and A2
+
+### Stage A1: Discovery Query Bank V2 / Round 1
+
+```text
+config/crops.yaml
+        |
+        v
+src/agri_rag/discovery.py
+        |
+        v
+data/agri_rag/discovery/query_bank.csv
+data/agri_rag/discovery/query_bank.jsonl
+data/agri_rag/discovery/query_bank_summary.json
+```
+
+A1 creates a systematic query bank for crop/weather/action coverage. Round 1 is
+deliberately smaller than the previous 11,288-query version. It combines:
+
+```text
+crop or crop group
+        +
+weather/agro-weather scenario
+        +
+effect-oriented phrase or relevant agricultural action
+        +
+optional search_region phrase
+```
+
+Scenario actions are curated per scenario, so the generator does not create a
+meaningless full Cartesian product.
+
+Each query record includes:
+
+```text
+query_id
+search_round
+language
+channel
+priority
+query_kind
+scope_type
+crop_id
+crop_name
+crop_group
+crop_term
+weather_scenario
+weather_factor
+weather_term
+effects
+action
+search_region
+search_region_term
+query
+```
+
+Effect-oriented rows use `action = NONE`.
+
+### Stage A2: Farmer/Public Query Mining
+
+A2 adds a synthetic natural Vietnamese farmer/public-question style layer on top
+of A1. Its purpose is to improve query wording diversity before Stage A3
+document discovery.
+
+A2 does not claim to have mined real farmer questions unless public source data
+exists. The repository currently has no real public-query dataset, so A2 output
+is generated as `synthetic`.
+
+Provenance classes:
+
+```text
+observed    = wording actually found in a public source; source_url required
+transformed = derived from an observed query; parent_query_id required
+synthetic   = generated from curated language patterns; no fake source allowed
+```
+
+A2 query schema:
+
+```text
+query_id
+query_text
+language
+stage
+query_origin
+intent
+scenario
+action
+crop_scope
+crop_key
+search_region
+search_region_term
+source_url
+source_title
+parent_query_id
+```
+
+A2 intent groups:
+
+```text
+irrigation_water
+rain_effect
+heat_sunlight
+humidity_disease
+fertilizer_weather
+spraying_weather
+planting_weather
+weather_recovery
+```
+
+A2 uses curated templates and compatibility rules. It does not blindly combine
+every crop, scenario, action, and region.
+
+Current A2 quality gate:
+
+```text
+total A2 queries        : 246
+queries with region     : 113
+queries without region  : 133
+observed                : 0
+transformed             : 0
+synthetic               : 246
+```
+
+During review, awkward mechanical wording was adjusted. In particular, A2 now
+uses search-keyword regional suffixes instead of directly appending `ở <region>`
+to every regional farmer-style question.
+
+## 7. Repository Structure
 
 ```text
 KhoaLuan/
 |
+|-- AGENTS.md
 |-- README.md
+|-- requirements.txt
 |-- .gitignore
 |
 |-- config/
@@ -242,6 +351,16 @@ KhoaLuan/
 |       `-- __init__.py
 |
 `-- data/
+    |
+    |-- agri_rag/
+    |   `-- discovery/
+    |       |-- a2_public_queries.csv           generated, ignored
+    |       |-- a2_public_queries.jsonl         generated, ignored
+    |       |-- discovery_queries_combined.jsonl generated, ignored
+    |       |-- query_bank.csv                  generated, ignored
+    |       |-- query_bank.jsonl                generated, ignored
+    |       `-- query_bank_summary.json         generated, ignored
+    |
     `-- weather/
         `-- geography/
             |-- binh_dinh_geography_metadata.json
@@ -250,202 +369,210 @@ KhoaLuan/
             `-- binh_dinh_weather_grid_025.geojson
 ```
 
-Các thư mục dữ liệu sinh tự động chưa xuất hiện cho tới khi pipeline tương ứng được chạy.
+Generated RAG outputs remain ignored by Git.
 
----
+## 8. File Responsibilities
 
-# 7. Ý nghĩa từng file hiện tại
+`AGENTS.md`
 
-## `config/crops.yaml`
+Persistent instructions for coding agents. It records project rules that should
+survive across sessions, including the mandatory Weather + RAG direction,
+cleaned-repository constraints, generated-data exclusions, RAG discovery
+principles, crop scope, geographic scope, and scientific safety boundaries.
 
-Định nghĩa phạm vi cây mục tiêu và alias của từng cây.
+`README.md`
 
-Đây là configuration dùng chung cho:
+Project map. It documents the current system flow, repository tree, source-file
+responsibilities, important input/output paths, how to run the current stage,
+current status, and next stage.
 
-- data discovery;
-- metadata;
-- retrieval;
-- evaluation.
+`requirements.txt`
 
----
+Python dependencies for the current stage. Stage A1/A2 currently requires PyYAML.
 
-## `src/agri_rag/discovery.py`
+`.gitignore`
 
-Giai đoạn đầu tiên của RAG data pipeline.
+Keeps Python caches, local environments, secrets, raw weather datasets,
+generated RAG data, indexes, models, caches, and temporary outputs out of Git.
 
-Trách nhiệm:
+`config/crops.yaml`
 
-- định nghĩa weather/agronomy scenarios;
-- tạo query tìm kiếm tiếng Việt và tiếng Anh;
-- tạo crop-specific query;
-- tạo crop-group fallback query;
-- tạo query có ngữ cảnh Việt Nam/Bình Định/Gia Lai;
-- sinh Discovery Query Bank.
+Single source of truth for the crop scope. It defines crop IDs, Vietnamese
+names, scientific names, Vietnamese aliases, English aliases, and crop groups.
+
+`src/agri_rag/__init__.py`
+
+Marks `src.agri_rag` as a Python package. It has no runtime input or output.
+
+`src/agri_rag/discovery.py`
+
+Implements RAG Data Acquisition Stage A1 and A2.
+
+A1 builds the systematic Discovery Query Bank V2 / Round 1. A2 builds the
+Vietnamese natural farmer/public-question layer with explicit `query_origin`
+provenance.
 
 Input:
 
 ```text
-config/crops.yaml / taxonomy trong discovery module
+config/crops.yaml
 ```
 
-Output dự kiến:
+Outputs:
 
 ```text
-data/agri_rag/discovery/query_bank.jsonl
 data/agri_rag/discovery/query_bank.csv
+data/agri_rag/discovery/query_bank.jsonl
+data/agri_rag/discovery/a2_public_queries.csv
+data/agri_rag/discovery/a2_public_queries.jsonl
+data/agri_rag/discovery/discovery_queries_combined.jsonl
 data/agri_rag/discovery/query_bank_summary.json
 ```
 
-Output trong `data/agri_rag/` không commit lên Git vì có thể tạo lại bằng code.
+It generates discovery queries only. It does not crawl websites, search
+scholarly APIs, download documents, validate source quality, build embeddings,
+build BM25, create vector databases, implement retrieval, or run Weather ML.
 
----
+`src/weather/__init__.py`
 
-## `data/weather/geography/`
+Marks `src.weather` as a Python package. The Weather pipeline will be rebuilt in
+a later phase. It has no runtime input or output today.
 
-Chứa metadata địa lý cố định cho phạm vi nghiên cứu.
+`data/weather/geography/`
 
-### `binh_dinh_old_boundary.geojson`
+Static geography for the former Binh Dinh study area. This directory is required
+for the future Weather branch and must be kept.
 
-Boundary tỉnh Bình Định cũ.
+## 9. Important Paths
 
-### `binh_dinh_weather_grid_025.geojson`
+Input:
 
-Các điểm/grid weather ở độ phân giải dự kiến 0.25 độ.
+```text
+config/crops.yaml
+```
 
-### `binh_dinh_location_registry.csv`
+Generated RAG output:
 
-Registry vị trí dùng cho weather extraction/matching.
+```text
+data/agri_rag/discovery/
+```
 
-### `binh_dinh_geography_metadata.json`
+Current generated files:
 
-Metadata mô tả geography dataset.
+```text
+query_bank.csv
+query_bank.jsonl
+a2_public_queries.csv
+a2_public_queries.jsonl
+discovery_queries_combined.jsonl
+query_bank_summary.json
+```
 
----
+Static Weather geography:
 
-# 8. Cách chạy hiện tại
+```text
+data/weather/geography/
+```
 
-Tạo Discovery Query Bank:
+Never commit:
+
+```text
+GRIB/GRIB2
+NetCDF
+downloaded web/PDF RAG documents
+generated indexes
+caches
+temporary reports
+```
+
+## 10. How To Run Stage A1/A2
+
+Install dependencies:
+
+```powershell
+pip install -r requirements.txt
+```
+
+Generate A1, A2, the combined query file, and the summary:
 
 ```powershell
 python -m src.agri_rag.discovery
 ```
 
-Sau khi chạy, kiểm tra:
+Expected successful audit:
 
 ```text
-Status = READY_FOR_DISCOVERY
-Issues = 0
+Status                  : READY_FOR_A3
+Issues                  : 0
 ```
 
----
-
-# 9. Roadmap
-
-## Phase A — RAG Data Acquisition
+Current successful counts:
 
 ```text
-A1. Define taxonomy
-A2. Build Discovery Query Bank
-A3. Search web/papers/public datasets
-A4. Collect candidate URLs
-A5. Relevance filtering
-A6. Source credibility/local applicability
+A1 queries              : 3486
+A2 queries              : 246
+Combined unique queries : 3732
+```
+
+Current A2 provenance:
+
+```text
+observed    : 0
+transformed : 0
+synthetic   : 246
+```
+
+The command prints A1 counts, A2 breakdowns, region/no-region counts, review
+changes, audit status, audit issues, and 24 representative A2 queries.
+
+## 11. Current Status
+
+```text
+Repository cleanup                    DONE
+Old source-first RAG pipeline         REMOVED
+Old crawlers/legal pipelines          NOT RESTORED
+Weather experimental scripts          REMOVED
+Weather branch                        KEPT
+Weather geography                     KEPT
+
+CURRENT:
+Stage A2
+Farmer/Public Query Mining
+
+READY FOR:
+Stage A3
+Candidate Document Discovery
+```
+
+## 12. Next Stages
+
+```text
+A3. Web + scholarly discovery
+A4. Candidate collection
+A5. Relevance validation
+A6. Source/local applicability validation
 A7. Download
-A8. Extract + normalize
-A9. Metadata enrichment
+A8. Extract/normalize
+A9. Weather-agronomy metadata
 A10. Coverage audit
-A11. Gap-driven acquisition
-A12. Freeze RAG Dataset V1
+A11. Regional gap fill
+A12. Freeze Dataset V1
 ```
 
-## Phase B — RAG Retrieval
+Only after Dataset V1 is frozen should the project move to chunking, BM25, dense
+embeddings, hybrid retrieval, reranking, and retrieval evaluation.
 
-```text
-B1. Sectioning
-B2. Chunking
-B3. BM25
-B4. Dense Embedding
-B5. Hybrid Retrieval
-B6. Reranking
-B7. Gold Corpus
-B8. Retrieval evaluation
-```
+## 13. Development Rules
 
-## Phase C — Weather Model
-
-```text
-C1. Define weather variables/geography
-C2. Download historical forecast
-C3. Download verification data
-C4. Match run_time / valid_time / lead_time
-C5. Build ML training dataset
-C6. Baselines
-C7. MOS/ML correction model
-C8. Evaluation by forecast lead
-```
-
-## Phase D — Decision System
-
-```text
-D1. Agro-Weather Feature Engine
-D2. Farm Context
-D3. Verified Parameter Registry
-D4. Decision Engine
-D5. Legal/Safety Gate
-D6. RAG + Weather integration
-D7. LLM explanation
-```
-
-## Phase E — Product
-
-```text
-E1. API
-E2. UI
-E3. Monitoring
-E4. MLOps
-E5. RAGOps
-E6. End-to-end evaluation
-```
-
----
-
-# 10. Quy tắc phát triển repository
-
-Từ thời điểm reset này:
-
-1. Mỗi file phải có một trách nhiệm rõ ràng.
-2. Không tạo hàng chục script test đánh số.
-3. Script thử nghiệm tạm thời không commit.
-4. Raw weather files không commit.
-5. Downloaded web/PDF RAG data không commit.
-6. Generated reports/indexes không commit trừ khi cần làm artifact báo cáo.
-7. Mỗi thay đổi lớn về code/cấu trúc phải cập nhật `README.md`.
-8. README là bản đồ chính thức để biết:
-   - hệ thống đang làm gì;
-   - file nào làm gì;
-   - input/output ở đâu;
-   - project đang ở stage nào.
-
----
-
-# 11. Trạng thái hiện tại
-
-```text
-Repository cleanup              IN PROGRESS
-Old RAG source-first pipeline   REMOVED
-Old RAG data                    REMOVED
-Weather experiment scripts      REMOVED
-Large local weather files       REMOVED / IGNORED
-Static Bình Định geography      KEPT
-
-Current development stage:
-RAG DATA DISCOVERY
-```
-
-Bước tiếp theo:
-
-```text
-Run and audit Discovery Query Bank
-```
-
-Sau đó mới bắt đầu tìm candidate documents trên web, paper indexes và public agricultural datasets.
+1. Do not remove or de-prioritize the Weather branch.
+2. Do not restore old crawlers, old legal pipelines, old numbered audit scripts,
+   old experimental weather scripts, or old generated RAG data.
+3. Keep the repository small and understandable.
+4. Prefer one clear module per major responsibility.
+5. Do not create unnecessary small Python files.
+6. Do not hardcode absolute local paths.
+7. Do not use a hard domain whitelist during discovery.
+8. Do not invent agronomic thresholds, pesticide legality, chemical dosage, or
+   scientific parameters.
+9. Every significant code, config, or file-structure change must update this
+   README.
