@@ -1,0 +1,31 @@
+{
+  "document_id": "DOC0011",
+  "source_id": "S03_ASISOV",
+  "url": "https://asisov.org.vn/Pages/bo-mon-rau-hoa-va-cay-canh-257.html",
+  "title": "BỘ MÔN RAU, HOA VÀ CÂY CẢNH",
+  "published_date": null,
+  "document_family": "institution_profile",
+  "crop_entities": [],
+  "buckets": [],
+  "suggested_buckets": [
+    "B01_CROP_PROFILE",
+    "B08_LOCAL"
+  ],
+  "knowledge_scope": "local_context",
+  "region": "SOUTH_CENTRAL_COAST",
+  "source_credibility": "HIGH",
+  "local_applicability": "SOUTH_CENTRAL_REGION",
+  "raw_path": "data\\agri_rag\\raw\\DOC0011.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0011.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0011.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REJECTED",
+  "quality_reasons": [
+    "SOURCE_EVIDENCE_ONLY_NOT_PRIMARY_RAG_KNOWLEDGE"
+  ],
+  "chunking_strategy": "DOCUMENT_STRUCTURE",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.499935+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "document_id": "DOC0013",
+  "source_id": "S01_PPD",
+  "url": "https://ppd.gov.vn/FileUpload/Documents/Thuoc%20BVTV/25.12.30_%20TT%2075.2025.BNNMT.pdf",
+  "title": null,
+  "published_date": "2025-12-26",
+  "document_family": "regulation",
+  "content_type": "application/pdf",
+  "buckets": [],
+  "crop_entities": [],
+  "suggested_buckets": [
+    "B06_PESTICIDE_LEGAL"
+  ],
+  "metadata_status": "SUCCESS",
+  "metadata_notes": [
+    "LEGAL_METADATA_FROM_VERIFIED_REGISTRY"
+  ],
+  "knowledge_scope": "regulatory",
+  "region": "VIETNAM",
+  "source_credibility": "VERY_HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "legal_status": "EFFECTIVE_AS_AMENDED",
+  "effective_date": "2026-02-10",
+  "supersedes": [
+    "25/2024/TT-BNNPTNT",
+    "03/2025/TT-BNNMT"
+  ],
+  "amended_by": [
+    "28/2026/TT-BNNMT"
+  ],
+  "raw_path": "data\\agri_rag\\raw\\DOC0013.pdf",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0013.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0013.txt",
+  "checksum": "cbf39c624f785a615ca141e26cddab15e1870e1ca1961ae37d7fb7be509dcfc4",
+  "extraction_method": "PYMUPDF_TEXT",
+  "extracted_char_count": 5317,
+  "normalization_method": "SAFE_TEXT_NORMALIZATION_V1",
+  "normalized_char_count": 5151,
+  "normalization_status": "SUCCESS",
+  "extraction_status": "SUCCESS",
+  "quality_status": "PENDING_REVIEW",
+  "review_notes": "seed_id=SEED013; expected_bucket=B06_PESTICIDE_LEGAL",
+  "normalized_checksum": "098286f2778487cd42d145863fa40b430d99b5e9fdf6fcf12bd380bf9f5786b0",
+  "published_date_source": "LEGAL_REGISTRY",
+  "legal_registry_key": "TT75_2025",
+  "legal_role_hint": "BASE_INSTRUMENT_PDF",
+  "legal_identifier_hint": "75/2025/TT-BNNMT",
+  "quality_reasons": [
+    "LEGAL_VALIDATION_REQUIRED"
+  ],
+  "rag_eligible": false,
+  "chunking_strategy": "LEGAL_STRUCTURE",
+  "quality_checked_at": "2026-09-05T08:37:00.504475+00:00",
+  "legal_validation_status": "VERIFIED",
+  "legal_validation_reason": "LEGAL_STATUS_VERIFIED",
+  "legal_identifier": "75/2025/TT-BNNMT",
+  "legal_role": "BASE_INSTRUMENT_PDF",
+  "legal_amends": [],
+  "legal_companion_documents": [
+    "DOC0002",
+    "DOC0015",
+    "DOC0016"
+  ],
+  "legal_bundle_id": "PESTICIDE_LIST_VN_CURRENT",
+  "requires_legal_bundle": true,
+  "standalone_current_source": false,
+  "legal_official_sources": [
+    {
+      "authority": "NATIONAL_LEGAL_DATABASE",
+      "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=186344"
+    },
+    {
+      "authority": "PPD_OFFICIAL",
+      "url": "https://www.ppd.gov.vn/tin-moi-nhat-289/thong-tu-so-752025tt-bnnmt-ban-hanh-danh-muc-thuoc-bao-ve-thuc-vat-duoc-phep-su-dung-tai-viet-nam-va-danh-muc-thuoc-bao-ve-thuc-vat-cam-su-dung-tai-viet-nam.html"
+    }
+  ],
+  "legal_verified_on": "2026-09-05",
+  "legal_reverify_after": "2026-10-05"
+}

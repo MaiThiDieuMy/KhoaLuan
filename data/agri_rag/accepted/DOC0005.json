@@ -1,0 +1,44 @@
+{
+  "document_id": "DOC0005",
+  "source_id": "S02_EXTENSION",
+  "url": "https://khuyennongvn.gov.vn/chuong-trinh-nganh-nong-nghiep/tai-co-cau-nganh-nong-nghiep/binh-dinh-san-xuat-rau-huu-co-tu-rac-huu-co-va-phe-phu-pham-nong-nghiep-22879.html",
+  "title": "Bình Định: Sản xuất rau hữu cơ từ rác hữu cơ và phế phụ phẩm nông nghiệp",
+  "published_date": "2023-09-11",
+  "document_family": "local_extension_article",
+  "crop_entities": [
+    "cai_xanh"
+  ],
+  "buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B07_GAP_SAFETY",
+    "B08_LOCAL"
+  ],
+  "suggested_buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B07_GAP_SAFETY",
+    "B08_LOCAL"
+  ],
+  "knowledge_scope": "crop_specific",
+  "region": "BINH_DINH_LEGACY",
+  "source_credibility": "HIGH",
+  "local_applicability": "LOCAL_DIRECT",
+  "raw_path": "data\\agri_rag\\raw\\DOC0005.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0005.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0005.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "ACCEPTED",
+  "quality_reasons": [
+    "QUALITY_GATE_PASSED"
+  ],
+  "chunking_strategy": "DOCUMENT_STRUCTURE",
+  "rag_eligible": true,
+  "quality_checked_at": "2026-09-05T08:37:00.487693+00:00"
+}

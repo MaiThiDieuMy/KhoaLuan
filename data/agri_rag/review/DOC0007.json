@@ -1,0 +1,34 @@
+{
+  "document_id": "DOC0007",
+  "source_id": "S02_EXTENSION",
+  "url": "https://khuyennongvn.gov.vn/khoa-hoc-cong-nghe/khcn-trong-nuoc/ky-thuat-trong-rau-cai-ngot-an-toan-16235.html",
+  "title": "Kỹ thuật trồng rau cải ngọt an toàn",
+  "published_date": "2017-03-11",
+  "document_family": "technical_guide",
+  "crop_entities": [],
+  "buckets": [],
+  "suggested_buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE"
+  ],
+  "knowledge_scope": "general_agronomy",
+  "region": "VIETNAM",
+  "source_credibility": "HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0007.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0007.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0007.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REVIEW_REQUIRED",
+  "quality_reasons": [
+    "TARGET_CROP_SCOPE_UNCLEAR"
+  ],
+  "chunking_strategy": "DOCUMENT_STRUCTURE",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.492172+00:00"
+}

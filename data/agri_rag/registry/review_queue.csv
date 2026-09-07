@@ -1,0 +1,13 @@
+﻿document_id,stage,reasons,source_id,document_family,title,raw_path,normalized_path
+DOC0001,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulation,Thông tư số 75/2025/TT-BNNMT: Ban hành Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam và Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam,data\agri_rag\raw\DOC0001.html,data\agri_rag\normalized\DOC0001.txt
+DOC0002,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulation,"Thông tư 28/2026/TT-BNNMT ngày 30/6/2026 sửa đổi,  bổ sung Thông tư số 75/2025/TT-BNNMT",data\agri_rag\raw\DOC0002.html,data\agri_rag\normalized\DOC0002.txt
+DOC0003,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulatory_attachment,,data\agri_rag\raw\DOC0003.pdf,data\agri_rag\normalized\DOC0003.txt
+DOC0004,OCR,OCR_REQUIRED,S01_PPD,,,data\agri_rag\raw\DOC0004.pdf,
+DOC0007,RELEVANCE_VALIDATION,TARGET_CROP_SCOPE_UNCLEAR,S02_EXTENSION,technical_guide,Kỹ thuật trồng rau cải ngọt an toàn,data\agri_rag\raw\DOC0007.html,data\agri_rag\normalized\DOC0007.txt
+DOC0008,SECTION_SPLITTING,SECTION_LEVEL_SELECTION_REQUIRED,S02_EXTENSION,extension_bulletin,,data\agri_rag\raw\DOC0008.pdf,data\agri_rag\normalized\DOC0008.txt
+DOC0009,SECTION_SPLITTING,SECTION_LEVEL_SELECTION_REQUIRED,S02_EXTENSION,extension_bulletin,,data\agri_rag\raw\DOC0009.pdf,data\agri_rag\normalized\DOC0009.txt
+DOC0012,SECTION_SPLITTING,SECTION_LEVEL_SELECTION_REQUIRED,S03_ASISOV,conference_proceedings,,data\agri_rag\raw\DOC0012.pdf,data\agri_rag\normalized\DOC0012.txt
+DOC0013,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulation,,data\agri_rag\raw\DOC0013.pdf,data\agri_rag\normalized\DOC0013.txt
+DOC0014,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulatory_attachment,,data\agri_rag\raw\DOC0014.pdf,data\agri_rag\normalized\DOC0014.txt
+DOC0015,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulation,,data\agri_rag\raw\DOC0015.pdf,data\agri_rag\normalized\DOC0015.txt
+DOC0016,LEGAL_VALIDATION,LEGAL_VALIDATION_REQUIRED,S01_PPD,regulatory_attachment,,data\agri_rag\raw\DOC0016.pdf,data\agri_rag\normalized\DOC0016.txt

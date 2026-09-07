@@ -1,0 +1,25 @@
+{
+  "province_name": "Bình Định",
+  "boundary_source": "geoBoundaries, Wikipedia",
+  "boundary_year_represented": "2008",
+  "boundary_api": "https://www.geoboundaries.org/api/current/gbOpen/VNM/ADM1/",
+  "boundary_geojson_source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1.geojson",
+  "grid_resolution_degree": 0.25,
+  "selection_method": "0.25-degree weather cells intersecting old Binh Dinh polygon",
+  "province_bounds": {
+    "south": 13.53345389797903,
+    "north": 14.71612734659982,
+    "west": 108.65552403770425,
+    "east": 109.30172468314765
+  },
+  "retrieval_area": {
+    "north": 14.75,
+    "west": 108.75,
+    "south": 13.5,
+    "east": 109.25
+  },
+  "total_selected_cells": 16,
+  "center_inside_cells": 7,
+  "covered_by_existing_audit_box": 5,
+  "not_covered_by_existing_audit_box": 11
+}

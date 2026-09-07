@@ -1,0 +1,38 @@
+{
+  "document_id": "DOC0008",
+  "source_id": "S02_EXTENSION",
+  "url": "https://khuyennongvn.gov.vn/data/documents/0/2023/11/17/hangweb/so-5.pdf",
+  "title": null,
+  "published_date": null,
+  "document_family": "extension_bulletin",
+  "crop_entities": [
+    "cai_xanh",
+    "xa_lach"
+  ],
+  "buckets": [],
+  "suggested_buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE",
+    "B07_GAP_SAFETY"
+  ],
+  "knowledge_scope": "general_agronomy",
+  "region": "VIETNAM",
+  "source_credibility": "HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0008.pdf",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0008.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0008.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REVIEW_REQUIRED",
+  "quality_reasons": [
+    "SECTION_LEVEL_SELECTION_REQUIRED"
+  ],
+  "chunking_strategy": "SECTION_LEVEL",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.495421+00:00"
+}

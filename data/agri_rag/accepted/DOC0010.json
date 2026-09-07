@@ -1,0 +1,44 @@
+{
+  "document_id": "DOC0010",
+  "source_id": "S02_EXTENSION",
+  "url": "https://khuyennongvn.gov.vn/ky-thuat-trong-trot/quy-trinh-ky-thuat-san-xuat-rau-thuy-canh-tuan-hoan-759.html",
+  "title": "Quy trình kỹ thuật sản xuất rau thủy canh tuần hoàn",
+  "published_date": "2011-12-26",
+  "document_family": "technical_guide",
+  "crop_entities": [
+    "cai_xanh",
+    "rau_muong",
+    "xa_lach"
+  ],
+  "buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE"
+  ],
+  "suggested_buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE"
+  ],
+  "knowledge_scope": "crop_specific",
+  "region": "VIETNAM",
+  "source_credibility": "HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0010.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0010.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0010.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "ACCEPTED",
+  "quality_reasons": [
+    "QUALITY_GATE_PASSED"
+  ],
+  "chunking_strategy": "DOCUMENT_STRUCTURE",
+  "rag_eligible": true,
+  "quality_checked_at": "2026-09-05T08:37:00.498937+00:00"
+}

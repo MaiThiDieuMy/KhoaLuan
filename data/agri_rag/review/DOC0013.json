@@ -1,0 +1,30 @@
+{
+  "document_id": "DOC0013",
+  "source_id": "S01_PPD",
+  "url": "https://ppd.gov.vn/FileUpload/Documents/Thuoc%20BVTV/25.12.30_%20TT%2075.2025.BNNMT.pdf",
+  "title": null,
+  "published_date": "2025-12-26",
+  "document_family": "regulation",
+  "crop_entities": [],
+  "buckets": [],
+  "suggested_buckets": [
+    "B06_PESTICIDE_LEGAL"
+  ],
+  "knowledge_scope": "regulatory",
+  "region": "VIETNAM",
+  "source_credibility": "VERY_HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0013.pdf",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0013.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0013.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REVIEW_REQUIRED",
+  "quality_reasons": [
+    "LEGAL_VALIDATION_REQUIRED"
+  ],
+  "chunking_strategy": "LEGAL_STRUCTURE",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.504475+00:00"
+}

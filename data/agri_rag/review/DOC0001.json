@@ -1,0 +1,30 @@
+{
+  "document_id": "DOC0001",
+  "source_id": "S01_PPD",
+  "url": "https://www.ppd.gov.vn/tin-moi-nhat-289/thong-tu-so-752025tt-bnnmt-ban-hanh-danh-muc-thuoc-bao-ve-thuc-vat-duoc-phep-su-dung-tai-viet-nam-va-danh-muc-thuoc-bao-ve-thuc-vat-cam-su-dung-tai-viet-nam.html",
+  "title": "Thông tư số 75/2025/TT-BNNMT: Ban hành Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam và Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam",
+  "published_date": "2025-12-26",
+  "document_family": "regulation",
+  "crop_entities": [],
+  "buckets": [],
+  "suggested_buckets": [
+    "B06_PESTICIDE_LEGAL"
+  ],
+  "knowledge_scope": "regulatory",
+  "region": "VIETNAM",
+  "source_credibility": "VERY_HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0001.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0001.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0001.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REVIEW_REQUIRED",
+  "quality_reasons": [
+    "LEGAL_VALIDATION_REQUIRED"
+  ],
+  "chunking_strategy": "LEGAL_STRUCTURE",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.479869+00:00"
+}

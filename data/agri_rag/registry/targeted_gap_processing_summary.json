@@ -1,0 +1,120 @@
+{
+  "processed": 5,
+  "failed": 0,
+  "accepted_sections": 5,
+  "review_sections": 0,
+  "target_matrix": {
+    "ngo": {
+      "crop_name": "Ngò / ngò rí",
+      "buckets": {
+        "B01_CROP_PROFILE": {
+          "status": "R2+",
+          "evidence": [
+            "SEC0017_NGO_CTU",
+            "SEC0018_NGO_TNAU"
+          ],
+          "sources": [
+            "S05_TNAU",
+            "S07_CTU"
+          ]
+        },
+        "B02_WATER": {
+          "status": "R2+",
+          "evidence": [
+            "SEC0017_NGO_CTU",
+            "SEC0018_NGO_TNAU"
+          ],
+          "sources": [
+            "S05_TNAU",
+            "S07_CTU"
+          ]
+        },
+        "B03_NUTRITION": {
+          "status": "R2+",
+          "evidence": [
+            "SEC0017_NGO_CTU",
+            "SEC0018_NGO_TNAU"
+          ],
+          "sources": [
+            "S05_TNAU",
+            "S07_CTU"
+          ]
+        },
+        "B04_PEST_DISEASE": {
+          "status": "R1",
+          "evidence": [
+            "SEC0018_NGO_TNAU"
+          ],
+          "sources": [
+            "S05_TNAU"
+          ]
+        },
+        "B05_WEATHER_CARE": {
+          "status": "R2+",
+          "evidence": [
+            "SEC0017_NGO_CTU",
+            "SEC0018_NGO_TNAU"
+          ],
+          "sources": [
+            "S05_TNAU",
+            "S07_CTU"
+          ]
+        }
+      }
+    },
+    "cai_cuc": {
+      "crop_name": "Cải cúc / tần ô",
+      "buckets": {
+        "B01_CROP_PROFILE": {
+          "status": "R2+",
+          "evidence": [
+            "SEC0019_CAI_CUC_UF",
+            "SEC0020_CAI_CUC_KN"
+          ],
+          "sources": [
+            "S02_EXTENSION",
+            "S06_UF_IFAS"
+          ]
+        },
+        "B02_WATER": {
+          "status": "R1",
+          "evidence": [
+            "SEC0019_CAI_CUC_UF"
+          ],
+          "sources": [
+            "S06_UF_IFAS"
+          ]
+        },
+        "B03_NUTRITION": {
+          "status": "R1",
+          "evidence": [
+            "SEC0020_CAI_CUC_KN"
+          ],
+          "sources": [
+            "S02_EXTENSION"
+          ]
+        },
+        "B04_PEST_DISEASE": {
+          "status": "R1",
+          "evidence": [
+            "SEC0021_CAI_CUC_OMAFRA"
+          ],
+          "sources": [
+            "S08_OMAFRA"
+          ]
+        },
+        "B05_WEATHER_CARE": {
+          "status": "R1",
+          "evidence": [
+            "SEC0019_CAI_CUC_UF"
+          ],
+          "sources": [
+            "S06_UF_IFAS"
+          ]
+        }
+      }
+    }
+  },
+  "remaining_core_gaps": [],
+  "failures": []
+}

@@ -1,0 +1,156 @@
+{
+  "section_id": "SEC0018_NGO_TNAU",
+  "parent_document_id": "DOC0018",
+  "source_id": "S05_TNAU",
+  "source_url": "https://agritech.tnau.ac.in/horticulture/horti_spice%20crops_corinader.html",
+  "crop_entities": [
+    "ngo"
+  ],
+  "crop_name": "Ngò / ngò rí",
+  "buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE"
+  ],
+  "knowledge_scope": "scientific_external",
+  "region": "INDIA_TAMIL_NADU",
+  "local_applicability": "EXTERNAL_SUPPORTING",
+  "evidence_role": "INDEPENDENT_EXTERNAL_AGRONOMY",
+  "section_mode": "FULL_DOCUMENT",
+  "evidence_status": "ACCEPTED_SECTION",
+  "coverage_eligible": true,
+  "section_path": "data\\agri_rag\\sections\\SEC0018_NGO_TNAU.txt",
+  "section_char_count": 5937,
+  "section_checksum": "93e3ac07d7dade95901ca7d4ea35a0d0ad23f1d38451042b93348ab0a0564eee",
+  "bucket_evidence": {
+    "B01_CROP_PROFILE": {
+      "passed": true,
+      "groups": [
+        {
+          "alternatives": [
+            "coriandrum sativum",
+            "coriander"
+          ],
+          "passed": true,
+          "matched": [
+            "coriandrum sativum",
+            "coriander"
+          ]
+        },
+        {
+          "alternatives": [
+            "soil",
+            "season",
+            "harvest"
+          ],
+          "passed": true,
+          "matched": [
+            "soil",
+            "season",
+            "harvest"
+          ]
+        }
+      ]
+    },
+    "B02_WATER": {
+      "passed": true,
+      "groups": [
+        {
+          "alternatives": [
+            "irrigation"
+          ],
+          "passed": true,
+          "matched": [
+            "irrigation"
+          ]
+        }
+      ]
+    },
+    "B03_NUTRITION": {
+      "passed": true,
+      "groups": [
+        {
+          "alternatives": [
+            "manuring"
+          ],
+          "passed": true,
+          "matched": [
+            "manuring"
+          ]
+        },
+        {
+          "alternatives": [
+            "fym",
+            "top dressing"
+          ],
+          "passed": true,
+          "matched": [
+            "fym",
+            "top dressing"
+          ]
+        }
+      ]
+    },
+    "B04_PEST_DISEASE": {
+      "passed": true,
+      "groups": [
+        {
+          "alternatives": [
+            "plant protection"
+          ],
+          "passed": true,
+          "matched": [
+            "plant protection"
+          ]
+        },
+        {
+          "alternatives": [
+            "aphid",
+            "powdery mildew",
+            "wilt"
+          ],
+          "passed": true,
+          "matched": [
+            "aphid",
+            "powdery mildew",
+            "wilt"
+          ]
+        }
+      ]
+    },
+    "B05_WEATHER_CARE": {
+      "passed": true,
+      "groups": [
+        {
+          "alternatives": [
+            "climate"
+          ],
+          "passed": true,
+          "matched": [
+            "climate"
+          ]
+        },
+        {
+          "alternatives": [
+            "temperature",
+            "rainfed",
+            "drought"
+          ],
+          "passed": true,
+          "matched": [
+            "temperature",
+            "rainfed",
+            "drought"
+          ]
+        }
+      ]
+    }
+  },
+  "safety_notes": [
+    "This is an external agronomic source. Pesticide products or treatment rates from this source must NOT be interpreted as legal pesticide authorization in Vietnam."
+  ],
+  "legal_authorization_source": false,
+  "rag_stage": "READY_FOR_CHUNKING"
+}

@@ -1,0 +1,489 @@
+﻿short_name,name,units,data_date,data_time,step_range,start_step,end_step,validity_date,validity_time,grid_type
+sp,Surface pressure,Pa,20260904,0,0,0,0,20260904,0,regular_ll
+tp,Total precipitation,m,20260904,0,0,0,0,20260904,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,0,0,0,20260904,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,0,0,0,20260904,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,0,0,0,20260904,0,regular_ll
+2t,2 metre temperature,K,20260904,0,0,0,0,20260904,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,0,0,0,20260904,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0,0,0,20260904,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-6,0,6,20260904,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,6,6,6,20260904,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,6,6,6,20260904,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,6,6,6,20260904,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,6,6,6,20260904,600,regular_ll
+2t,2 metre temperature,K,20260904,0,6,6,6,20260904,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,6,6,6,20260904,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-6,0,6,20260904,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-12,0,12,20260904,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,12,12,12,20260904,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,12,12,12,20260904,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,12,12,12,20260904,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,12,12,12,20260904,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,12,12,12,20260904,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,12,12,12,20260904,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-12,0,12,20260904,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,18,18,18,20260904,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-18,0,18,20260904,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,18,18,18,20260904,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,18,18,18,20260904,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,18,18,18,20260904,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,18,18,18,20260904,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,18,18,18,20260904,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-18,0,18,20260904,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-24,0,24,20260905,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,24,24,24,20260905,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,24,24,24,20260905,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,24,24,24,20260905,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,24,24,24,20260905,0,regular_ll
+2t,2 metre temperature,K,20260904,0,24,24,24,20260905,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,24,24,24,20260905,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-24,0,24,20260905,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,30,30,30,20260905,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-30,0,30,20260905,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,30,30,30,20260905,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,30,30,30,20260905,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,30,30,30,20260905,600,regular_ll
+2t,2 metre temperature,K,20260904,0,30,30,30,20260905,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,30,30,30,20260905,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-30,0,30,20260905,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-36,0,36,20260905,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,36,36,36,20260905,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,36,36,36,20260905,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,36,36,36,20260905,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,36,36,36,20260905,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,36,36,36,20260905,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,36,36,36,20260905,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-36,0,36,20260905,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-42,0,42,20260905,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,42,42,42,20260905,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,42,42,42,20260905,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,42,42,42,20260905,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,42,42,42,20260905,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,42,42,42,20260905,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,42,42,42,20260905,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-42,0,42,20260905,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-48,0,48,20260906,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,48,48,48,20260906,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,48,48,48,20260906,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,48,48,48,20260906,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,48,48,48,20260906,0,regular_ll
+2t,2 metre temperature,K,20260904,0,48,48,48,20260906,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,48,48,48,20260906,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-48,0,48,20260906,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-54,0,54,20260906,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,54,54,54,20260906,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,54,54,54,20260906,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,54,54,54,20260906,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,54,54,54,20260906,600,regular_ll
+2t,2 metre temperature,K,20260904,0,54,54,54,20260906,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,54,54,54,20260906,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-54,0,54,20260906,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-60,0,60,20260906,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,60,60,60,20260906,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,60,60,60,20260906,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,60,60,60,20260906,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,60,60,60,20260906,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,60,60,60,20260906,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,60,60,60,20260906,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-60,0,60,20260906,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-66,0,66,20260906,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,66,66,66,20260906,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,66,66,66,20260906,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,66,66,66,20260906,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,66,66,66,20260906,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,66,66,66,20260906,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,66,66,66,20260906,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-66,0,66,20260906,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-72,0,72,20260907,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,72,72,72,20260907,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,72,72,72,20260907,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,72,72,72,20260907,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,72,72,72,20260907,0,regular_ll
+2t,2 metre temperature,K,20260904,0,72,72,72,20260907,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,72,72,72,20260907,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-72,0,72,20260907,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-78,0,78,20260907,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,78,78,78,20260907,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,78,78,78,20260907,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,78,78,78,20260907,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,78,78,78,20260907,600,regular_ll
+2t,2 metre temperature,K,20260904,0,78,78,78,20260907,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,78,78,78,20260907,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-78,0,78,20260907,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-84,0,84,20260907,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,84,84,84,20260907,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,84,84,84,20260907,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,84,84,84,20260907,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,84,84,84,20260907,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,84,84,84,20260907,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,84,84,84,20260907,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-84,0,84,20260907,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-90,0,90,20260907,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,90,90,90,20260907,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,90,90,90,20260907,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,90,90,90,20260907,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,90,90,90,20260907,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,90,90,90,20260907,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,90,90,90,20260907,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-90,0,90,20260907,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-96,0,96,20260908,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,96,96,96,20260908,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,96,96,96,20260908,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,96,96,96,20260908,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,96,96,96,20260908,0,regular_ll
+2t,2 metre temperature,K,20260904,0,96,96,96,20260908,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,96,96,96,20260908,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-96,0,96,20260908,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-102,0,102,20260908,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,102,102,102,20260908,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,102,102,102,20260908,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,102,102,102,20260908,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,102,102,102,20260908,600,regular_ll
+2t,2 metre temperature,K,20260904,0,102,102,102,20260908,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,102,102,102,20260908,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-102,0,102,20260908,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-108,0,108,20260908,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,108,108,108,20260908,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,108,108,108,20260908,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,108,108,108,20260908,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,108,108,108,20260908,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,108,108,108,20260908,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,108,108,108,20260908,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-108,0,108,20260908,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-114,0,114,20260908,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,114,114,114,20260908,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,114,114,114,20260908,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,114,114,114,20260908,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,114,114,114,20260908,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,114,114,114,20260908,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,114,114,114,20260908,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-114,0,114,20260908,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-120,0,120,20260909,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,120,120,120,20260909,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,120,120,120,20260909,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,120,120,120,20260909,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,120,120,120,20260909,0,regular_ll
+2t,2 metre temperature,K,20260904,0,120,120,120,20260909,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,120,120,120,20260909,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-120,0,120,20260909,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-126,0,126,20260909,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,126,126,126,20260909,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,126,126,126,20260909,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,126,126,126,20260909,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,126,126,126,20260909,600,regular_ll
+2t,2 metre temperature,K,20260904,0,126,126,126,20260909,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,126,126,126,20260909,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-126,0,126,20260909,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-132,0,132,20260909,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,132,132,132,20260909,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,132,132,132,20260909,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,132,132,132,20260909,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,132,132,132,20260909,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,132,132,132,20260909,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,132,132,132,20260909,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-132,0,132,20260909,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-138,0,138,20260909,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,138,138,138,20260909,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,138,138,138,20260909,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,138,138,138,20260909,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,138,138,138,20260909,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,138,138,138,20260909,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,138,138,138,20260909,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-138,0,138,20260909,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-144,0,144,20260910,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,144,144,144,20260910,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,144,144,144,20260910,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,144,144,144,20260910,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,144,144,144,20260910,0,regular_ll
+2t,2 metre temperature,K,20260904,0,144,144,144,20260910,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,144,144,144,20260910,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-144,0,144,20260910,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-150,0,150,20260910,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,150,150,150,20260910,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,150,150,150,20260910,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,150,150,150,20260910,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,150,150,150,20260910,600,regular_ll
+2t,2 metre temperature,K,20260904,0,150,150,150,20260910,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,150,150,150,20260910,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-150,0,150,20260910,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-156,0,156,20260910,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,156,156,156,20260910,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,156,156,156,20260910,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,156,156,156,20260910,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,156,156,156,20260910,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,156,156,156,20260910,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,156,156,156,20260910,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-156,0,156,20260910,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-162,0,162,20260910,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,162,162,162,20260910,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,162,162,162,20260910,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,162,162,162,20260910,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,162,162,162,20260910,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,162,162,162,20260910,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,162,162,162,20260910,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-162,0,162,20260910,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-168,0,168,20260911,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,168,168,168,20260911,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,168,168,168,20260911,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,168,168,168,20260911,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,168,168,168,20260911,0,regular_ll
+2t,2 metre temperature,K,20260904,0,168,168,168,20260911,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,168,168,168,20260911,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-168,0,168,20260911,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-174,0,174,20260911,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,174,174,174,20260911,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,174,174,174,20260911,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,174,174,174,20260911,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,174,174,174,20260911,600,regular_ll
+2t,2 metre temperature,K,20260904,0,174,174,174,20260911,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,174,174,174,20260911,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-174,0,174,20260911,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-180,0,180,20260911,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,180,180,180,20260911,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,180,180,180,20260911,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,180,180,180,20260911,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,180,180,180,20260911,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,180,180,180,20260911,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,180,180,180,20260911,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-180,0,180,20260911,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,186,186,186,20260911,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-186,0,186,20260911,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,186,186,186,20260911,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,186,186,186,20260911,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,186,186,186,20260911,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,186,186,186,20260911,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,186,186,186,20260911,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-186,0,186,20260911,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-192,0,192,20260912,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,192,192,192,20260912,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,192,192,192,20260912,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,192,192,192,20260912,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,192,192,192,20260912,0,regular_ll
+2t,2 metre temperature,K,20260904,0,192,192,192,20260912,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,192,192,192,20260912,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-192,0,192,20260912,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-198,0,198,20260912,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,198,198,198,20260912,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,198,198,198,20260912,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,198,198,198,20260912,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,198,198,198,20260912,600,regular_ll
+2t,2 metre temperature,K,20260904,0,198,198,198,20260912,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,198,198,198,20260912,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-198,0,198,20260912,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-204,0,204,20260912,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,204,204,204,20260912,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,204,204,204,20260912,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,204,204,204,20260912,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,204,204,204,20260912,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,204,204,204,20260912,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,204,204,204,20260912,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-204,0,204,20260912,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-210,0,210,20260912,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,210,210,210,20260912,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,210,210,210,20260912,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,210,210,210,20260912,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,210,210,210,20260912,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,210,210,210,20260912,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,210,210,210,20260912,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-210,0,210,20260912,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-216,0,216,20260913,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,216,216,216,20260913,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,216,216,216,20260913,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,216,216,216,20260913,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,216,216,216,20260913,0,regular_ll
+2t,2 metre temperature,K,20260904,0,216,216,216,20260913,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,216,216,216,20260913,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-216,0,216,20260913,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-222,0,222,20260913,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,222,222,222,20260913,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,222,222,222,20260913,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,222,222,222,20260913,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,222,222,222,20260913,600,regular_ll
+2t,2 metre temperature,K,20260904,0,222,222,222,20260913,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,222,222,222,20260913,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-222,0,222,20260913,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-228,0,228,20260913,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,228,228,228,20260913,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,228,228,228,20260913,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,228,228,228,20260913,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,228,228,228,20260913,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,228,228,228,20260913,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,228,228,228,20260913,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-228,0,228,20260913,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-234,0,234,20260913,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,234,234,234,20260913,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,234,234,234,20260913,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,234,234,234,20260913,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,234,234,234,20260913,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,234,234,234,20260913,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,234,234,234,20260913,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-234,0,234,20260913,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-240,0,240,20260914,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,240,240,240,20260914,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,240,240,240,20260914,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,240,240,240,20260914,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,240,240,240,20260914,0,regular_ll
+2t,2 metre temperature,K,20260904,0,240,240,240,20260914,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,240,240,240,20260914,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-240,0,240,20260914,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-246,0,246,20260914,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,246,246,246,20260914,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,246,246,246,20260914,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,246,246,246,20260914,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,246,246,246,20260914,600,regular_ll
+2t,2 metre temperature,K,20260904,0,246,246,246,20260914,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,246,246,246,20260914,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-246,0,246,20260914,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-252,0,252,20260914,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,252,252,252,20260914,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,252,252,252,20260914,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,252,252,252,20260914,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,252,252,252,20260914,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,252,252,252,20260914,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,252,252,252,20260914,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-252,0,252,20260914,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-258,0,258,20260914,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,258,258,258,20260914,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,258,258,258,20260914,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,258,258,258,20260914,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,258,258,258,20260914,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,258,258,258,20260914,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,258,258,258,20260914,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-258,0,258,20260914,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-264,0,264,20260915,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,264,264,264,20260915,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,264,264,264,20260915,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,264,264,264,20260915,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,264,264,264,20260915,0,regular_ll
+2t,2 metre temperature,K,20260904,0,264,264,264,20260915,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,264,264,264,20260915,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-264,0,264,20260915,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-270,0,270,20260915,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,270,270,270,20260915,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,270,270,270,20260915,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,270,270,270,20260915,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,270,270,270,20260915,600,regular_ll
+2t,2 metre temperature,K,20260904,0,270,270,270,20260915,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,270,270,270,20260915,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-270,0,270,20260915,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-276,0,276,20260915,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,276,276,276,20260915,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,276,276,276,20260915,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,276,276,276,20260915,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,276,276,276,20260915,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,276,276,276,20260915,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,276,276,276,20260915,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-276,0,276,20260915,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-282,0,282,20260915,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,282,282,282,20260915,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,282,282,282,20260915,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,282,282,282,20260915,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,282,282,282,20260915,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,282,282,282,20260915,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,282,282,282,20260915,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-282,0,282,20260915,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-288,0,288,20260916,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,288,288,288,20260916,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,288,288,288,20260916,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,288,288,288,20260916,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,288,288,288,20260916,0,regular_ll
+2t,2 metre temperature,K,20260904,0,288,288,288,20260916,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,288,288,288,20260916,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-288,0,288,20260916,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-294,0,294,20260916,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,294,294,294,20260916,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,294,294,294,20260916,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,294,294,294,20260916,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,294,294,294,20260916,600,regular_ll
+2t,2 metre temperature,K,20260904,0,294,294,294,20260916,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,294,294,294,20260916,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-294,0,294,20260916,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-300,0,300,20260916,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,300,300,300,20260916,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,300,300,300,20260916,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,300,300,300,20260916,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,300,300,300,20260916,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,300,300,300,20260916,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,300,300,300,20260916,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-300,0,300,20260916,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-306,0,306,20260916,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,306,306,306,20260916,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,306,306,306,20260916,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,306,306,306,20260916,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,306,306,306,20260916,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,306,306,306,20260916,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,306,306,306,20260916,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-306,0,306,20260916,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-312,0,312,20260917,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,312,312,312,20260917,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,312,312,312,20260917,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,312,312,312,20260917,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,312,312,312,20260917,0,regular_ll
+2t,2 metre temperature,K,20260904,0,312,312,312,20260917,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,312,312,312,20260917,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-312,0,312,20260917,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-318,0,318,20260917,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,318,318,318,20260917,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,318,318,318,20260917,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,318,318,318,20260917,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,318,318,318,20260917,600,regular_ll
+2t,2 metre temperature,K,20260904,0,318,318,318,20260917,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,318,318,318,20260917,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-318,0,318,20260917,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-324,0,324,20260917,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,324,324,324,20260917,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,324,324,324,20260917,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,324,324,324,20260917,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,324,324,324,20260917,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,324,324,324,20260917,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,324,324,324,20260917,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-324,0,324,20260917,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-330,0,330,20260917,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,330,330,330,20260917,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,330,330,330,20260917,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,330,330,330,20260917,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,330,330,330,20260917,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,330,330,330,20260917,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,330,330,330,20260917,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-330,0,330,20260917,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-336,0,336,20260918,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,336,336,336,20260918,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,336,336,336,20260918,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,336,336,336,20260918,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,336,336,336,20260918,0,regular_ll
+2t,2 metre temperature,K,20260904,0,336,336,336,20260918,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,336,336,336,20260918,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-336,0,336,20260918,0,regular_ll
+tp,Total precipitation,m,20260904,0,0-342,0,342,20260918,600,regular_ll
+sp,Surface pressure,Pa,20260904,0,342,342,342,20260918,600,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,342,342,342,20260918,600,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,342,342,342,20260918,600,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,342,342,342,20260918,600,regular_ll
+2t,2 metre temperature,K,20260904,0,342,342,342,20260918,600,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,342,342,342,20260918,600,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-342,0,342,20260918,600,regular_ll
+tp,Total precipitation,m,20260904,0,0-348,0,348,20260918,1200,regular_ll
+sp,Surface pressure,Pa,20260904,0,348,348,348,20260918,1200,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,348,348,348,20260918,1200,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,348,348,348,20260918,1200,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,348,348,348,20260918,1200,regular_ll
+2t,2 metre temperature,K,20260904,0,348,348,348,20260918,1200,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,348,348,348,20260918,1200,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-348,0,348,20260918,1200,regular_ll
+tp,Total precipitation,m,20260904,0,0-354,0,354,20260918,1800,regular_ll
+sp,Surface pressure,Pa,20260904,0,354,354,354,20260918,1800,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,354,354,354,20260918,1800,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,354,354,354,20260918,1800,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,354,354,354,20260918,1800,regular_ll
+2t,2 metre temperature,K,20260904,0,354,354,354,20260918,1800,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,354,354,354,20260918,1800,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-354,0,354,20260918,1800,regular_ll
+tp,Total precipitation,m,20260904,0,0-360,0,360,20260919,0,regular_ll
+sp,Surface pressure,Pa,20260904,0,360,360,360,20260919,0,regular_ll
+tcc,Total cloud cover,(0 - 1),20260904,0,360,360,360,20260919,0,regular_ll
+10u,10 metre U wind component,m s**-1,20260904,0,360,360,360,20260919,0,regular_ll
+10v,10 metre V wind component,m s**-1,20260904,0,360,360,360,20260919,0,regular_ll
+2t,2 metre temperature,K,20260904,0,360,360,360,20260919,0,regular_ll
+2d,2 metre dewpoint temperature,K,20260904,0,360,360,360,20260919,0,regular_ll
+ssrd,Surface short-wave (solar) radiation downwards,J m**-2,20260904,0,0-360,0,360,20260919,0,regular_ll

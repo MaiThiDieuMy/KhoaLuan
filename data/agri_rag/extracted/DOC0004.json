@@ -1,0 +1,83 @@
+{
+  "document_id": "DOC0004",
+  "source_id": "S01_PPD",
+  "url": "https://ppd.gov.vn/FileUpload/Documents/P.%20Ke%20hoach/TBKT/21.03%2C01_QD288%20TBKT%20rau%20huu%20c%C6%A1.pdf",
+  "page_count": 14,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 2,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 3,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 4,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 5,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 6,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 7,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 8,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 9,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 10,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 11,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 12,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 13,
+      "text": "",
+      "char_count": 0
+    },
+    {
+      "page_number": 14,
+      "text": "",
+      "char_count": 0
+    }
+  ],
+  "text": "",
+  "char_count": 0,
+  "average_chars_per_page": 0.0,
+  "extraction_method": "PYMUPDF_TEXT",
+  "status": "OCR_REQUIRED"
+}

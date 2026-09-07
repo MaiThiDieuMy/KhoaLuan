@@ -1,0 +1,42 @@
+{
+  "document_id": "DOC0006",
+  "source_id": "S02_EXTENSION",
+  "url": "https://khuyennongvn.gov.vn/khoa-hoc-cong-nghe/khcn-trong-nuoc/mot-so-bien-phap-ky-thuat-cham-soc-cay-rau-vu-dong-13340.html",
+  "title": "Một số biện pháp kỹ thuật chăm sóc cây rau vụ đông",
+  "published_date": "2015-12-14",
+  "document_family": "technical_guide",
+  "crop_entities": [
+    "cai_xanh"
+  ],
+  "buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE"
+  ],
+  "suggested_buckets": [
+    "B01_CROP_PROFILE",
+    "B02_WATER",
+    "B03_NUTRITION",
+    "B04_PEST_DISEASE",
+    "B05_WEATHER_CARE"
+  ],
+  "knowledge_scope": "crop_specific",
+  "region": "VIETNAM",
+  "source_credibility": "HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0006.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0006.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0006.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "ACCEPTED",
+  "quality_reasons": [
+    "QUALITY_GATE_PASSED"
+  ],
+  "chunking_strategy": "DOCUMENT_STRUCTURE",
+  "rag_eligible": true,
+  "quality_checked_at": "2026-09-05T08:37:00.490088+00:00"
+}

@@ -1,0 +1,79 @@
+{
+  "document_id": "DOC0016",
+  "source_id": "S01_PPD",
+  "url": "https://ppd.gov.vn/FileUpload/Documents/Thuoc%20BVTV/26.07.03_PL%20TT28__01072026152914_signed.pdf",
+  "title": null,
+  "published_date": "2026-06-30",
+  "document_family": "regulatory_attachment",
+  "content_type": "application/pdf",
+  "buckets": [],
+  "crop_entities": [
+    "cai_xanh"
+  ],
+  "suggested_buckets": [
+    "B06_PESTICIDE_LEGAL"
+  ],
+  "metadata_status": "SUCCESS",
+  "metadata_notes": [
+    "LEGAL_METADATA_FROM_VERIFIED_REGISTRY"
+  ],
+  "knowledge_scope": "regulatory",
+  "region": "VIETNAM",
+  "source_credibility": "VERY_HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "legal_status": "EFFECTIVE",
+  "effective_date": "2026-08-15",
+  "supersedes": [],
+  "amended_by": [],
+  "raw_path": "data\\agri_rag\\raw\\DOC0016.pdf",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0016.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0016.txt",
+  "checksum": "3df5b456ef5e6bcfe23795d4c95f4c2e4d0e68e1e0dc49025b786e24ca3a1300",
+  "extraction_method": "PYMUPDF_TEXT",
+  "extracted_char_count": 38717,
+  "normalization_method": "SAFE_TEXT_NORMALIZATION_V1",
+  "normalized_char_count": 36015,
+  "normalization_status": "SUCCESS",
+  "extraction_status": "SUCCESS",
+  "quality_status": "PENDING_REVIEW",
+  "review_notes": "seed_id=SEED016; expected_bucket=B06_PESTICIDE_LEGAL",
+  "normalized_checksum": "f3d8d7feec6e1ebeb8c8108b2144b55c4fe984d255b2a5a12eb996ceb73a0956",
+  "published_date_source": "LEGAL_REGISTRY",
+  "legal_registry_key": "TT28_2026",
+  "legal_role_hint": "AMENDMENT_APPENDICES",
+  "legal_identifier_hint": "28/2026/TT-BNNMT",
+  "quality_reasons": [
+    "LEGAL_VALIDATION_REQUIRED"
+  ],
+  "rag_eligible": false,
+  "chunking_strategy": "LEGAL_STRUCTURE",
+  "quality_checked_at": "2026-09-05T08:37:00.512400+00:00",
+  "legal_validation_status": "VERIFIED",
+  "legal_validation_reason": "LEGAL_STATUS_VERIFIED",
+  "legal_identifier": "28/2026/TT-BNNMT",
+  "legal_role": "AMENDMENT_APPENDICES",
+  "legal_amends": [
+    "75/2025/TT-BNNMT"
+  ],
+  "legal_companion_documents": [
+    "DOC0001",
+    "DOC0003",
+    "DOC0013",
+    "DOC0014"
+  ],
+  "legal_bundle_id": "PESTICIDE_LIST_VN_CURRENT",
+  "requires_legal_bundle": true,
+  "standalone_current_source": false,
+  "legal_official_sources": [
+    {
+      "authority": "GOVERNMENT_PORTAL",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=218752&orggroupid=4&pageid=27160"
+    },
+    {
+      "authority": "PPD_OFFICIAL",
+      "url": "https://www.ppd.gov.vn/van-ban-chinh-sach/thong-tu-282026tt-bnnmt-ngay-3062026-sua-doi--bo-sung-thong-tu-so-752025tt-bnnmt.html"
+    }
+  ],
+  "legal_verified_on": "2026-09-05",
+  "legal_reverify_after": "2026-10-05"
+}

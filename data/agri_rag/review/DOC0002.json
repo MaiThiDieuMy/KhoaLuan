@@ -1,0 +1,30 @@
+{
+  "document_id": "DOC0002",
+  "source_id": "S01_PPD",
+  "url": "https://ppd.gov.vn/van-ban-chinh-sach/thong-tu-282026tt-bnnmt-ngay-3062026-sua-doi--bo-sung-thong-tu-so-752025tt-bnnmt.html",
+  "title": "Thông tư 28/2026/TT-BNNMT ngày 30/6/2026 sửa đổi,  bổ sung Thông tư số 75/2025/TT-BNNMT",
+  "published_date": "2026-06-30",
+  "document_family": "regulation",
+  "crop_entities": [],
+  "buckets": [],
+  "suggested_buckets": [
+    "B06_PESTICIDE_LEGAL"
+  ],
+  "knowledge_scope": "regulatory",
+  "region": "VIETNAM",
+  "source_credibility": "VERY_HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0002.html",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0002.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0002.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REVIEW_REQUIRED",
+  "quality_reasons": [
+    "LEGAL_VALIDATION_REQUIRED"
+  ],
+  "chunking_strategy": "LEGAL_STRUCTURE",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.482748+00:00"
+}

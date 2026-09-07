@@ -1,0 +1,176 @@
+{
+  "bundle_id": "PESTICIDE_LIST_VN_CURRENT",
+  "stage": "LEGAL_CANDIDATE_EXTRACTION",
+  "base_document": "DOC0003",
+  "amendment_document": "DOC0016",
+  "candidate_count": 98,
+  "unknown_action_count": 0,
+  "row_level_parsing_complete": false,
+  "consolidation_complete": false,
+  "safe_for_runtime": false,
+  "tt28_boundaries": {
+    "CHANGE": {
+      "start": 68,
+      "end": 3420,
+      "marker": "thay đổi thông tin liên quan đến tổ chức, cá nhân đăng ký"
+    },
+    "WITHDRAW": {
+      "start": 3420,
+      "end": 4320,
+      "marker": "tự nguyện rút khỏi danh mục"
+    },
+    "ADD": {
+      "start": 4320,
+      "end": 39048,
+      "marker": "đăng ký vào danh mục thuốc bảo vệ thực vật được phép sử dụng"
+    }
+  },
+  "per_crop": {
+    "cai_xanh": {
+      "crop_name": "Cải xanh",
+      "lookup_status": "EXACT_MATCH_CANDIDATES_FOUND",
+      "exact_match_count": 82,
+      "actions": {
+        "BASE": 81,
+        "CHANGE": 0,
+        "WITHDRAW": 0,
+        "ADD": 1,
+        "UNKNOWN": 0
+      },
+      "source_pages": {
+        "DOC0003": [
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          17,
+          18,
+          20,
+          31,
+          32,
+          33,
+          34,
+          35,
+          42,
+          43,
+          63,
+          78,
+          81,
+          83,
+          85,
+          86,
+          87,
+          89,
+          90,
+          91,
+          94,
+          95,
+          120,
+          121,
+          122,
+          130,
+          132,
+          133,
+          136,
+          137,
+          167,
+          168,
+          182,
+          199,
+          202,
+          239,
+          242,
+          326,
+          329,
+          330,
+          331,
+          333,
+          337,
+          347,
+          348
+        ],
+        "DOC0016": [
+          8
+        ]
+      }
+    },
+    "ngo": {
+      "crop_name": "Ngò / ngò rí",
+      "lookup_status": "NO_EXACT_MATCH_FOUND",
+      "exact_match_count": 0,
+      "actions": {
+        "BASE": 0,
+        "CHANGE": 0,
+        "WITHDRAW": 0,
+        "ADD": 0,
+        "UNKNOWN": 0
+      },
+      "source_pages": {}
+    },
+    "cai_cuc": {
+      "crop_name": "Cải cúc / tần ô",
+      "lookup_status": "EXACT_MATCH_CANDIDATES_FOUND",
+      "exact_match_count": 1,
+      "actions": {
+        "BASE": 1,
+        "CHANGE": 0,
+        "WITHDRAW": 0,
+        "ADD": 0,
+        "UNKNOWN": 0
+      },
+      "source_pages": {
+        "DOC0003": [
+          260
+        ]
+      }
+    },
+    "rau_muong": {
+      "crop_name": "Rau muống",
+      "lookup_status": "EXACT_MATCH_CANDIDATES_FOUND",
+      "exact_match_count": 8,
+      "actions": {
+        "BASE": 8,
+        "CHANGE": 0,
+        "WITHDRAW": 0,
+        "ADD": 0,
+        "UNKNOWN": 0
+      },
+      "source_pages": {
+        "DOC0003": [
+          32,
+          73,
+          169,
+          226,
+          307,
+          331
+        ]
+      }
+    },
+    "xa_lach": {
+      "crop_name": "Xà lách",
+      "lookup_status": "EXACT_MATCH_CANDIDATES_FOUND",
+      "exact_match_count": 7,
+      "actions": {
+        "BASE": 7,
+        "CHANGE": 0,
+        "WITHDRAW": 0,
+        "ADD": 0,
+        "UNKNOWN": 0
+      },
+      "source_pages": {
+        "DOC0003": [
+          146,
+          167,
+          182,
+          253,
+          268
+        ]
+      }
+    }
+  },
+  "next_stage": "ROW_LEVEL_LEGAL_PARSING_AND_VALIDATION"
+}

@@ -1,0 +1,159 @@
+registry_version: "2.0"
+
+verified_on: "2026-09-05"
+
+verification_policy:
+  recheck_after_days: 30
+
+  accepted_authorities:
+    - NATIONAL_LEGAL_DATABASE
+    - GOVERNMENT_PORTAL
+    - PPD_OFFICIAL
+
+  rules:
+    - "Legal status must not be inferred from document keywords."
+    - "Amended base documents must be used together with applicable amendments."
+    - "Legal documents require re-verification when the verification period expires."
+    - "A regulatory appendix inherits the legal context of its parent legal instrument."
+    - "A base pesticide list must not be treated as a complete current list when an effective amendment exists."
+
+
+legal_instruments:
+
+  TT75_2025:
+    identifier: "75/2025/TT-BNNMT"
+
+    title: >
+      Ban hành Danh mục thuốc bảo vệ thực vật được phép sử dụng
+      tại Việt Nam và Danh mục thuốc bảo vệ thực vật cấm sử dụng
+      tại Việt Nam
+
+    instrument_type: "CIRCULAR"
+
+    issued_date: "2025-12-26"
+
+    effective_date: "2026-02-10"
+
+    legal_status: "EFFECTIVE_AS_AMENDED"
+
+    jurisdiction: "VIETNAM"
+
+    document_ids:
+      - DOC0001
+      - DOC0003
+      - DOC0013
+      - DOC0014
+
+    supersedes:
+      - "25/2024/TT-BNNPTNT"
+      - "03/2025/TT-BNNMT"
+
+    amended_by:
+      - "28/2026/TT-BNNMT"
+
+    companion_documents:
+      - DOC0002
+      - DOC0015
+      - DOC0016
+
+    official_sources:
+      - authority: "NATIONAL_LEGAL_DATABASE"
+        url: "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=186344"
+
+      - authority: "PPD_OFFICIAL"
+        url: "https://www.ppd.gov.vn/tin-moi-nhat-289/thong-tu-so-752025tt-bnnmt-ban-hanh-danh-muc-thuoc-bao-ve-thuc-vat-duoc-phep-su-dung-tai-viet-nam-va-danh-muc-thuoc-bao-ve-thuc-vat-cam-su-dung-tai-viet-nam.html"
+
+    usage_policy:
+      standalone_current_source: false
+
+      requires_legal_bundle: true
+
+      bundle_id: "PESTICIDE_LIST_VN_CURRENT"
+
+      reason: >
+        Circular 75/2025/TT-BNNMT remains effective but has been
+        amended and supplemented by Circular 28/2026/TT-BNNMT.
+        Its pesticide lists must therefore be interpreted together
+        with the effective amendment.
+
+
+  TT28_2026:
+    identifier: "28/2026/TT-BNNMT"
+
+    title: >
+      Sửa đổi, bổ sung Thông tư số 75/2025/TT-BNNMT về Danh mục
+      thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam và
+      Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam
+
+    instrument_type: "AMENDING_CIRCULAR"
+
+    issued_date: "2026-06-30"
+
+    effective_date: "2026-08-15"
+
+    legal_status: "EFFECTIVE"
+
+    jurisdiction: "VIETNAM"
+
+    document_ids:
+      - DOC0002
+      - DOC0015
+      - DOC0016
+
+    amends:
+      - "75/2025/TT-BNNMT"
+
+    companion_documents:
+      - DOC0001
+      - DOC0003
+      - DOC0013
+      - DOC0014
+
+    official_sources:
+      - authority: "GOVERNMENT_PORTAL"
+        url: "https://vanban.chinhphu.vn/?classid=1&docid=218752&orggroupid=4&pageid=27160"
+
+      - authority: "PPD_OFFICIAL"
+        url: "https://www.ppd.gov.vn/van-ban-chinh-sach/thong-tu-282026tt-bnnmt-ngay-3062026-sua-doi--bo-sung-thong-tu-so-752025tt-bnnmt.html"
+
+    usage_policy:
+      standalone_current_source: false
+
+      requires_legal_bundle: true
+
+      bundle_id: "PESTICIDE_LIST_VN_CURRENT"
+
+      reason: >
+        Circular 28/2026/TT-BNNMT is an amending instrument and
+        must be interpreted together with Circular 75/2025/TT-BNNMT.
+
+
+document_roles:
+
+  DOC0001:
+    legal_instrument: "TT75_2025"
+    legal_role: "BASE_INSTRUMENT_NOTICE"
+
+  DOC0002:
+    legal_instrument: "TT28_2026"
+    legal_role: "AMENDMENT_INSTRUMENT_NOTICE"
+
+  DOC0003:
+    legal_instrument: "TT75_2025"
+    legal_role: "BASE_ALLOWED_LIST"
+
+  DOC0013:
+    legal_instrument: "TT75_2025"
+    legal_role: "BASE_INSTRUMENT_PDF"
+
+  DOC0014:
+    legal_instrument: "TT75_2025"
+    legal_role: "BASE_BANNED_LIST"
+
+  DOC0015:
+    legal_instrument: "TT28_2026"
+    legal_role: "AMENDMENT_INSTRUMENT_PDF"
+
+  DOC0016:
+    legal_instrument: "TT28_2026"
+    legal_role: "AMENDMENT_APPENDICES"

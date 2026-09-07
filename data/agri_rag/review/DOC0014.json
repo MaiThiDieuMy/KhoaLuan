@@ -1,0 +1,30 @@
+{
+  "document_id": "DOC0014",
+  "source_id": "S01_PPD",
+  "url": "https://sansangxuatkhau.ppd.gov.vn/FileUpload/Documents/25.12.30_PL%202%20-%20Danh%20m%E1%BB%A5c%20c%E1%BA%A5m%20s%E1%BB%AD%20d%E1%BB%A5ng.pdf",
+  "title": null,
+  "published_date": "2025-12-26",
+  "document_family": "regulatory_attachment",
+  "crop_entities": [],
+  "buckets": [],
+  "suggested_buckets": [
+    "B06_PESTICIDE_LEGAL"
+  ],
+  "knowledge_scope": "regulatory",
+  "region": "VIETNAM",
+  "source_credibility": "VERY_HIGH",
+  "local_applicability": "VIETNAM_GENERAL",
+  "raw_path": "data\\agri_rag\\raw\\DOC0014.pdf",
+  "extracted_path": "data\\agri_rag\\extracted\\DOC0014.json",
+  "normalized_path": "data\\agri_rag\\normalized\\DOC0014.txt",
+  "extraction_status": "SUCCESS",
+  "normalization_status": "SUCCESS",
+  "metadata_status": "SUCCESS",
+  "quality_status": "REVIEW_REQUIRED",
+  "quality_reasons": [
+    "LEGAL_VALIDATION_REQUIRED"
+  ],
+  "chunking_strategy": "LEGAL_STRUCTURE",
+  "rag_eligible": false,
+  "quality_checked_at": "2026-09-05T08:37:00.506473+00:00"
+}

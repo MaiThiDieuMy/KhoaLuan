@@ -1,0 +1,14 @@
+﻿check,status,detail
+row_count,PASS,"rows=61, expected=61"
+lead_sequence,PASS,"min=0, max=360, count=61"
+duplicate_leads,PASS,duplicates=0
+valid_time,PASS,valid_time = run_time + lead_hours
+vietnam_time,PASS,Vietnam = UTC + 7h
+missing_values,PASS,missing=0
+rh_range,PASS,"min=62.82, max=99.08"
+cloud_range,PASS,"min=0.00, max=100.00"
+wind_non_negative,PASS,min=0.350
+rain_non_negative,PASS,min=0.000000
+rain_deaccumulation,PASS,"interval_sum=128.922, final_cumulative=128.922"
+solar_non_negative,PASS,min=0.000000
+solar_deaccumulation,PASS,"interval_sum=244.343, final_cumulative=244.343"

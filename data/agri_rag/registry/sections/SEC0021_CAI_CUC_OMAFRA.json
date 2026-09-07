@@ -1,0 +1,87 @@
+{
+  "section_id": "SEC0021_CAI_CUC_OMAFRA",
+  "parent_document_id": "DOC0021",
+  "source_id": "S08_OMAFRA",
+  "source_url": "https://www.omafra.gov.on.ca/CropOp/en/spec_veg/leafy_veg/chry.html",
+  "crop_entities": [
+    "cai_cuc"
+  ],
+  "crop_name": "Cải cúc / tần ô",
+  "buckets": [
+    "B04_PEST_DISEASE"
+  ],
+  "knowledge_scope": "scientific_external",
+  "region": "CANADA_ONTARIO",
+  "local_applicability": "EXTERNAL_SUPPORTING",
+  "evidence_role": "INDEPENDENT_EXTERNAL_PEST_EVIDENCE",
+  "section_mode": "FULL_DOCUMENT",
+  "evidence_status": "ACCEPTED_SECTION",
+  "coverage_eligible": true,
+  "section_path": "data\\agri_rag\\sections\\SEC0021_CAI_CUC_OMAFRA.txt",
+  "section_char_count": 4235,
+  "section_checksum": "7f739bca8ede1d38ec376a234ba1a61d31f93e1544e041210f50b9927289f321",
+  "bucket_evidence": {
+    "B04_PEST_DISEASE": {
+      "passed": true,
+      "groups": [
+        {
+          "alternatives": [
+            "chrysanthemum coronarium",
+            "edible chrysanthemum",
+            "tong hao"
+          ],
+          "passed": true,
+          "matched": [
+            "chrysanthemum coronarium",
+            "edible chrysanthemum",
+            "tong hao"
+          ]
+        },
+        {
+          "alternatives": [
+            "aphid",
+            "aphids"
+          ],
+          "passed": true,
+          "matched": [
+            "aphid",
+            "aphids"
+          ]
+        },
+        {
+          "alternatives": [
+            "powdery mildew"
+          ],
+          "passed": true,
+          "matched": [
+            "powdery mildew"
+          ]
+        },
+        {
+          "alternatives": [
+            "whitefly",
+            "whiteflies",
+            "mites",
+            "leafminers",
+            "leaf miners",
+            "japanese beetle"
+          ],
+          "passed": true,
+          "matched": [
+            "whitefly",
+            "mites",
+            "leafminers",
+            "japanese beetle"
+          ]
+        }
+      ]
+    }
+  },
+  "safety_notes": [
+    "OMAFRA is an external supporting source for pest and disease evidence only.",
+    "Pesticide products, registrations or control recommendations from Ontario must NOT be treated as legal pesticide authorization in Vietnam.",
+    "Current Vietnamese pesticide legality must come only from the separate B06 legal consolidation pipeline."
+  ],
+  "legal_authorization_source": false,
+  "rag_stage": "READY_FOR_CHUNKING"
+}

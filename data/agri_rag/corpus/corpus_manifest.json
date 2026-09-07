@@ -1,0 +1,121 @@
+{
+  "status": "READY_FOR_RETRIEVAL_INDEX",
+  "generated_at": "2026-09-05T17:15:30.321417+00:00",
+  "legal_policy": {
+    "B06_PESTICIDE_LEGAL": "EXCLUDED_FROM_TEXT_RAG",
+    "runtime_legal_source": "data/agri_rag/legal_bundles/PESTICIDE_LIST_VN_CURRENT/current_legal_records.jsonl"
+  },
+  "source_selection": {
+    "accepted_document_units": 3,
+    "validated_section_units": 5,
+    "final_input_units": 8,
+    "duplicate_input_units_removed": 0,
+    "rejected_document_inputs": [],
+    "rejected_section_inputs": []
+  },
+  "chunking": {
+    "target_chars": 1400,
+    "max_chars": 1800,
+    "overlap_chars": 220,
+    "minimum_chunk_chars": 180,
+    "strategy": "heading-aware + paragraph/sentence boundary chunking"
+  },
+  "statistics": {
+    "input_char_count": 39779,
+    "chunk_char_count_including_overlap": 42794,
+    "chunk_count": 51,
+    "exact_duplicate_chunks_removed": 0,
+    "by_input_type": {
+      "ACCEPTED_DOCUMENT": 12,
+      "VALIDATED_SECTION": 39
+    },
+    "by_source_id": {
+      "S02_EXTENSION": 19,
+      "S05_TNAU": 7,
+      "S06_UF_IFAS": 10,
+      "S07_CTU": 10,
+      "S08_OMAFRA": 5
+    },
+    "by_crop_id": {
+      "cai_cuc": 22,
+      "cai_xanh": 12,
+      "ngo": 22,
+      "rau_muong": 6,
+      "xa_lach": 9
+    },
+    "by_retrieval_bucket": {
+      "B01_CROP_PROFILE": 42,
+      "B02_WATER": 33,
+      "B03_NUTRITION": 33,
+      "B04_PEST_DISEASE": 22,
+      "B05_WEATHER_CARE": 29,
+      "B07_GAP_SAFETY": 1,
+      "B08_LOCAL": 2
+    },
+    "bucket_assignment_mode": {
+      "KEYWORD_SUBSET": 37,
+      "PARENT_FALLBACK": 14
+    }
+  },
+  "unit_stats": {
+    "DOC0005": {
+      "input_type": "ACCEPTED_DOCUMENT",
+      "input_chars": 2523,
+      "sections": 1,
+      "chunks": 2
+    },
+    "DOC0006": {
+      "input_type": "ACCEPTED_DOCUMENT",
+      "input_chars": 4950,
+      "sections": 1,
+      "chunks": 4
+    },
+    "DOC0010": {
+      "input_type": "ACCEPTED_DOCUMENT",
+      "input_chars": 4863,
+      "sections": 6,
+      "chunks": 6
+    },
+    "SEC0017_NGO_CTU": {
+      "input_type": "VALIDATED_SECTION",
+      "input_chars": 6826,
+      "sections": 6,
+      "chunks": 10
+    },
+    "SEC0018_NGO_TNAU": {
+      "input_type": "VALIDATED_SECTION",
+      "input_chars": 5937,
+      "sections": 5,
+      "chunks": 7
+    },
+    "SEC0019_CAI_CUC_UF": {
+      "input_type": "VALIDATED_SECTION",
+      "input_chars": 9652,
+      "sections": 5,
+      "chunks": 10
+    },
+    "SEC0020_CAI_CUC_KN": {
+      "input_type": "VALIDATED_SECTION",
+      "input_chars": 793,
+      "sections": 7,
+      "chunks": 7
+    },
+    "SEC0021_CAI_CUC_OMAFRA": {
+      "input_type": "VALIDATED_SECTION",
+      "input_chars": 4235,
+      "sections": 3,
+      "chunks": 5
+    }
+  },
+  "duplicate_units": [],
+  "duplicate_chunks": [],
+  "audit": {
+    "issue_count": 0,
+    "warning_count": 0,
+    "issues": [],
+    "warnings": []
+  },
+  "outputs": {
+    "chunks": "data\\agri_rag\\corpus\\chunks.jsonl"
+  }
+}

@@ -1,0 +1,145 @@
+S01_PPD:
+  name: "Cục Trồng trọt và Bảo vệ thực vật"
+  base_url: "https://ppd.gov.vn/"
+  authority: "VIETNAM_OFFICIAL"
+  credibility: "VERY_HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B03_NUTRITION
+    - B04_PEST_DISEASE
+    - B05_WEATHER_CARE
+    - B06_PESTICIDE_LEGAL
+    - B07_GAP_SAFETY
+
+  geography:
+    - VIETNAM
+
+
+S02_EXTENSION:
+  name: "Trung tâm Khuyến nông Quốc gia"
+  base_url: "https://khuyennongvn.gov.vn/"
+  authority: "VIETNAM_OFFICIAL"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B03_NUTRITION
+    - B04_PEST_DISEASE
+    - B05_WEATHER_CARE
+    - B07_GAP_SAFETY
+    - B08_LOCAL
+
+  geography:
+    - VIETNAM
+
+
+S03_ASISOV:
+  name: "Viện Khoa học Kỹ thuật Nông nghiệp Duyên hải Nam Trung Bộ"
+  base_url: "https://asisov.org.vn/"
+  authority: "RESEARCH_INSTITUTE"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B03_NUTRITION
+    - B04_PEST_DISEASE
+    - B05_WEATHER_CARE
+    - B07_GAP_SAFETY
+    - B08_LOCAL
+
+  geography:
+    - SOUTH_CENTRAL_COAST
+
+
+S04_VBPL_KONTUM:
+  name: "Cơ sở dữ liệu quốc gia về văn bản pháp luật - Kon Tum"
+  base_url: "https://vbpl.vn/"
+  authority: "VIETNAM_OFFICIAL"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B03_NUTRITION
+    - B04_PEST_DISEASE
+    - B05_WEATHER_CARE
+
+  geography:
+    - KON_TUM_LEGACY
+
+
+S05_TNAU:
+  name: "Tamil Nadu Agricultural University - Agritech Portal"
+  base_url: "https://agritech.tnau.ac.in/"
+  authority: "UNIVERSITY_EXTENSION"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B03_NUTRITION
+    - B04_PEST_DISEASE
+    - B05_WEATHER_CARE
+
+  geography:
+    - INDIA_TAMIL_NADU
+
+
+S06_UF_IFAS:
+  name: "University of Florida IFAS Extension"
+  base_url: "https://ask.ifas.ufl.edu/"
+  authority: "UNIVERSITY_EXTENSION"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B05_WEATHER_CARE
+
+  geography:
+    - USA_FLORIDA
+
+
+S07_CTU:
+  name: "Trường Nông nghiệp - Đại học Cần Thơ"
+  base_url: "https://coa.ctu.edu.vn/"
+  authority: "VIETNAM_UNIVERSITY"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  allowed_topics:
+    - B01_CROP_PROFILE
+    - B02_WATER
+    - B03_NUTRITION
+    - B04_PEST_DISEASE
+    - B05_WEATHER_CARE
+
+  geography:
+    - VIETNAM
+
+
+S08_OMAFRA:
+  name: "Ontario Ministry of Agriculture, Food and Rural Affairs"
+  base_url: "https://www.omafra.gov.on.ca/"
+  authority: "GOVERNMENT_EXTENSION"
+  credibility: "HIGH"
+  status: "APPROVED"
+
+  # Cố ý chỉ cho phép B04 trong phiên bản V1.
+  # Nguồn này được thêm để lấp đúng gap Pest & Disease
+  # của cải cúc, không dùng để tăng coverage các bucket khác.
+  allowed_topics:
+    - B04_PEST_DISEASE
+
+  geography:
+    - CANADA_ONTARIO
