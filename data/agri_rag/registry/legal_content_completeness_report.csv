@@ -1,8 +1,0 @@
-﻿role,document_id,status,char_count,issues,warnings,matched_content_groups
-BASE_INSTRUMENT_PDF,DOC0013,PASS,5151,,,được phép sử dụng tại Việt Nam | cấm sử dụng tại Việt Nam
-BASE_ALLOWED_LIST,DOC0003,PASS,584373,,,ĐƯỢC PHÉP SỬ DỤNG TẠI VIỆT NAM | HOẠT CHẤT
-BASE_BANNED_LIST,DOC0014,PASS,897,,,CẤM SỬ DỤNG TẠI VIỆT NAM | HOẠT CHẤT
-AMENDMENT_INSTRUMENT_PDF,DOC0015,PASS,4379,,,"Sửa đổi, bổ sung"
-AMENDMENT_APPENDICES,DOC0016,PASS,36015,,,tự nguyện rút khỏi Danh mục | ĐĂNG KÝ VÀO DANH MỤC THUỐC BẢO VỆ THỰC VẬT ĐƯỢC PHÉP SỬ DỤNG
-AMENDMENT_INSTRUMENT_NOTICE,DOC0002,PASS,,,,
-BASE_INSTRUMENT_NOTICE,DOC0001,PASS,,,,

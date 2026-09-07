@@ -1,0 +1,39 @@
+cai_xanh:
+  canonical_name: "Cải xanh"
+  scientific_name: "Brassica juncea"
+  aliases:
+    - "cải xanh"
+    - "cải bẹ xanh"
+    - "Brassica juncea"
+
+ngo_ri:
+  canonical_name: "Ngò rí"
+  scientific_name: "Coriandrum sativum"
+  aliases:
+    - "ngò rí"
+    - "rau mùi"
+    - "ngò"
+    - "Coriandrum sativum"
+
+cai_cuc:
+  canonical_name: "Cải cúc"
+  scientific_name: "Glebionis coronaria"
+  aliases:
+    - "cải cúc"
+    - "tần ô"
+    - "Glebionis coronaria"
+    - "Chrysanthemum coronarium"
+
+rau_muong:
+  canonical_name: "Rau muống"
+  scientific_name: "Ipomoea aquatica"
+  aliases:
+    - "rau muống"
+    - "Ipomoea aquatica"
+
+xa_lach:
+  canonical_name: "Xà lách"
+  scientific_name: "Lactuca sativa"
+  aliases:
+    - "xà lách"
+    - "Lactuca sativa"

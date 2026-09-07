@@ -1,3 +1,7 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -6,13 +10,107 @@ __pycache__/
 venv/
 env/
 
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# ============================================================
+# SECRETS
+# ============================================================
+
 .env
 .env.*
 !.env.example
 
-*.log
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
 
+# ============================================================
+# IDE / OS
+# ============================================================
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+
+
+# ============================================================
+# LOG / TEMP
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+
+# ============================================================
+# LARGE WEATHER DATA
+#
+# Raw weather datasets must be reproducible by download code.
+# They are NOT stored in Git.
+# ============================================================
+
+*.grib
 *.grib2
+*.grb
+*.grb2
+
+*.nc
+*.nc4
+*.netcdf
+
+*.idx
+
+*.zarr/
+*.zarr.zip
+
+
+# ============================================================
+# WEATHER GENERATED DATA
+#
+# Keep only versioned static geography metadata:
+# data/weather/geography/
+# ============================================================
+
+data/weather/raw/
+data/weather/downloads/
+data/weather/tigge/
+data/weather/era5/
+data/weather/processed/
+data/weather/normalized/
+data/weather/cache/
+data/weather/tmp/
+data/weather/registry/
+data/weather/reports/
+
+
+# ============================================================
+# RAG GENERATED DATA
+#
+# Discovery/download/processing outputs are reproducible.
+# Do not commit downloaded web pages, PDFs, chunks or indexes.
+# ============================================================
+
+data/agri_rag/
+
+
+# ============================================================
+# RAG INDEXES / MODELS
+# ============================================================
+
+chroma_db/
+vector_db/
+faiss_index/
+
+models/
+checkpoints/
+
+
+# ============================================================
+# NOTEBOOK OUTPUTS
+# ============================================================
+
+.ipynb_checkpoints/

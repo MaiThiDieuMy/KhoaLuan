@@ -1,2 +1,0 @@
-﻿location_id,canonical_lat,canonical_lon,run_time,lead_hours,valid_time,forecast_temperature_c,tigge_grid_lat,tigge_grid_lon,tigge_distance_km,verification_temperature_c,era5_grid_lat,era5_grid_lon,era5_distance_km,temperature_error_c,forecast_source,verification_source,spatial_alignment
-binh_dinh_audit_01,13.78,109.22,2026-08-01,24,2026-08-02,28.004754638671898,13.70558269111348,109.25045703839122,8.899839258313467,28.289025878906273,13.75,109.25,4.647772807552562,0.284271240234375,ECMWF_TIGGE,ERA5,nearest_to_canonical_audit_only
